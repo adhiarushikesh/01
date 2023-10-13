@@ -1,0 +1,6 @@
+---
+# all varaiables
+    resource_group: RG2
+    location: westindia
+    #admin_username: tadmin
+    #admin_password: "PL@net01"

@@ -1,0 +1,9 @@
+# all varaiables
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Creating resource group - "{{ resource_group }}"
+      azure_rm_resourcegroup:
+        name: "{{ resource_group }}"
+        location: "{{ location }}"
+    
